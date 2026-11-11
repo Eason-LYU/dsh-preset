@@ -1,5 +1,7 @@
 # dsh-preset — 一套 DeepSeek Harness 插件预设
 
+仓库地址：**https://github.com/Eason-LYU/dsh-preset**
+
 把本仓库克隆下来跑一个脚本，就能得到和作者差不多的 DSH 效果（16 个第三方插件，其中 2 个是本仓库自带的本地插件）。
 
 ## 先决条件
@@ -11,7 +13,7 @@
 ## 三步装好
 
 ```powershell
-git clone <本仓库地址> dsh-preset
+git clone https://github.com/Eason-LYU/dsh-preset.git
 cd dsh-preset
 powershell -ExecutionPolicy Bypass -File .\install.ps1
 ```

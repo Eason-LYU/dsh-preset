@@ -1,0 +1,27 @@
+{
+  "name": "dsh-delete-session",
+  "version": "0.2.0",
+  "description": "DeepSeek Harness plugin: adds a 删除会话 / Delete session entry to the session context menu (next to archive), and sweeps the metadata a delete leaves behind.",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  },
+  "files": [
+    "lib/index.js",
+    "lib/client.js",
+    "cordis.patch.yml",
+    "README.md"
+  ],
+  "license": "MIT"
+}

@@ -1,0 +1,127 @@
+{
+  "$comment": "DSH 插件预设：name=包名，version=本机实测版本，spec=npm/github/file 安装规格，repo=上游公开仓库，origin=npm|local",
+  "profile": "desktop",
+  "generatedAt": "2026-11-11",
+  "plugins": [
+    {
+      "name": "@a9i5k4/dsh-auto-memory",
+      "version": "3.3.17",
+      "spec": "@a9i5k4/dsh-auto-memory@3.3.17",
+      "repo": "https://github.com/Aik358/dsh-auto-memory",
+      "origin": "npm",
+      "what": "自动记忆：日志/笔记/反思/白板，跨会话唤回"
+    },
+    {
+      "name": "@idoall/dsh-notify",
+      "version": "0.4.6",
+      "spec": "@idoall/dsh-notify@0.4.6",
+      "repo": "https://github.com/idoall/dsh-notify",
+      "origin": "npm",
+      "what": "任务完成页内通知"
+    },
+    {
+      "name": "@liustack/modlens",
+      "version": "3.27.1",
+      "spec": "@liustack/modlens@3.27.1",
+      "repo": "https://github.com/liustack/modlens",
+      "origin": "npm",
+      "what": "给纯文本模型加视觉：读图/截图 OCR"
+    },
+    {
+      "name": "@liustack/modsearch",
+      "version": "5.10.7",
+      "spec": "@liustack/modsearch@5.10.7",
+      "repo": "https://github.com/liustack/modsearch",
+      "origin": "npm",
+      "what": "免费网页搜索/读页/x_search"
+    },
+    {
+      "name": "@vectorize-io/hindsight-coding-agents",
+      "version": "0.8.1",
+      "spec": "@vectorize-io/hindsight-coding-agents@0.8.1",
+      "repo": "https://github.com/vectorize-io/hindsight",
+      "origin": "npm",
+      "what": "Hindsight 长期记忆知识页"
+    },
+    {
+      "name": "@wxg-prc-cpg/browser-skill-dsh-plugin",
+      "version": "0.3.3",
+      "spec": "@wxg-prc-cpg/browser-skill-dsh-plugin@0.3.3",
+      "repo": "https://github.com/Tencent/BrowserSkill",
+      "origin": "npm",
+      "what": "操作本机登录态 Chromium（bsk_* 工具）"
+    },
+    {
+      "name": "dsh-cost-meter",
+      "version": "1.8.35",
+      "spec": "dsh-cost-meter@1.8.35",
+      "repo": "https://github.com/Han-1413141/dsh-cost-meter",
+      "origin": "npm",
+      "what": "会话/当日费用统计与余额"
+    },
+    {
+      "name": "dsh-diff-approval",
+      "version": "0.35.0",
+      "spec": "dsh-diff-approval@0.35.0",
+      "repo": "https://github.com/9087/dsh-diff-approval",
+      "origin": "npm",
+      "what": "改动审阅面板与行内批注"
+    },
+    {
+      "name": "dsh-free-search",
+      "version": "0.9.1",
+      "spec": "dsh-free-search@0.9.1",
+      "repo": "https://github.com/DDDMUC/dsh-free-search",
+      "origin": "npm",
+      "what": "多引擎免费搜索（本次设成 bing）"
+    },
+    {
+      "name": "dshmarket",
+      "version": "1.66.32",
+      "spec": "dshmarket@1.66.32",
+      "repo": "https://github.com/dsh-market/dsh-market",
+      "origin": "npm",
+      "what": "插件市场（dshmarket.com）"
+    },
+    {
+      "name": "dsh-click",
+      "version": "0.3.24",
+      "spec": "dsh-click@0.3.24",
+      "repo": "https://github.com/PerryLink/dsh-click",
+      "origin": "npm",
+      "what": "桌面级点击/输入/截图（screen_read/click/type）"
+    },
+    {
+      "name": "dsh-whale-widget",
+      "version": "0.4.2",
+      "spec": "dsh-whale-widget@0.4.2",
+      "repo": "https://github.com/MeteorNOX/DeepSeek-Balance-Whale-Widget",
+      "origin": "npm",
+      "what": "右下角余额小鲸鱼挂件"
+    },
+    {
+      "name": "dsh-nekowhale-stickers",
+      "version": "1.1.1",
+      "spec": "dsh-nekowhale-stickers@1.1.1",
+      "repo": "https://github.com/Loping151/dsh-nekowhale-stickers",
+      "origin": "npm",
+      "what": "大肥鱼表情库（322 张，表情/贴纸/自定义文字图）"
+    },
+    {
+      "name": "dsh-plugin-fun",
+      "version": "0.2.0",
+      "spec": "./plugins/dsh-plugin-fun",
+      "repo": null,
+      "origin": "local",
+      "what": "「阿蓝」人格 + 离线冷笑话库（本仓库自带）"
+    },
+    {
+      "name": "dsh-delete-session",
+      "version": "0.2.0",
+      "spec": "./plugins/dsh-delete-session",
+      "repo": null,
+      "origin": "local",
+      "what": "会话右键「删除会话」并清理残留元数据（本仓库自带）"
+    }
+  ]
+}

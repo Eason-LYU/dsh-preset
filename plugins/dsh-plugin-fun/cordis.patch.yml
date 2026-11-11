@@ -1,0 +1,5 @@
+# dsh-plugin-fun bundle patch
+# 挂载「阿蓝」人格插件：注册 fun:persona（性格）与 fun:sticker-guide（表情包使用引导）系统提示段
+- insert:
+    - id: fun
+      name: 'dsh-plugin-fun'

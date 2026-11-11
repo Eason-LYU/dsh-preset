@@ -1,0 +1,27 @@
+{
+  "name": "dsh-plugin-fun",
+  "version": "0.2.0",
+  "description": "「阿蓝」人格 + 本地冷笑话库：给 DeepSeek Harness 注入活泼、会玩梗的性格，并提供离线 tell_joke 工具，零网络依赖。",
+  "type": "module",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "jokes.js",
+    "cordis.patch.yml",
+    "README.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek",
+    "persona",
+    "fun",
+    "joke"
+  ],
+  "license": "MIT"
+}

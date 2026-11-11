@@ -1,0 +1,6 @@
+# dsh-delete-session bundle patch: one host row that mounts the plugin.
+# The row name resolves from the profile's own node_modules, where
+# `dsh plugin --profile desktop add <path>` (pnpm add) installed this package.
+- insert:
+    - id: delete-session
+      name: dsh-delete-session
